@@ -5,67 +5,67 @@
 
 const perguntas = [
     {
-        enunciado: "Pergunta?",
+        enunciado: "Você prefere atividades em grupo ou sozinho?",
         alternativas: [
             {
-                texto: " Texto/resposta",
-                afirmacao: " Afirmação ",
+                texto: " Em grupo ",
+                afirmacao: " Você gosta de se conectar com as pessoas e se sente energizado em interações sociais. ",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Sozinho",
+                afirmacao: " Você valoriza momentos de introspecção e recarrega suas energias no silêncio.",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: " Quando você precisa tomar uma decisão, você costuma ser mais:",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Racional ",
+                afirmacao: " Você confia na lógica e na análise para encontrar a melhor solução.   ",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Emocional ",
+                afirmacao: " Você leva em conta os sentimentos e a empatia antes de decidir. ",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: "  Em situaçoẽs novas, você tende a ser mais:",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Cauteloso (a) ",
+                afirmacao: " Você pensa antes de agir e prefere segurança e planejamento.  ",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "Aventureiro (a) ",
+                afirmacao: " Você gosta de explorar o desconhecido e abraça desafios com entusiasmo. ",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: "  No seu tempo livre, você prefere:",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: " Estar em movimento ( passeios, esportes, festas )  ",
+                afirmacao: "  Você é dinâmico, gosta de novidades e aproveita a vida ativamente.  ",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "  Relaxar em casa (ler, ver filmes, descansar)   ",
+                afirmacao: "  Você valoriza tranquilidade e aprecia momentos de calma e descanso.",
             }
         ]
     },
     {
-        enunciado: " Pergunta?",
+        enunciado: " Quando alguém discorda de você, você normalmente:  ",
         alternativas: [
             {
-                texto: " Texto/resposta ",
-                afirmacao: "Afirmação",
+                texto: "  Argumenta e defende seu ponto  ",
+                afirmacao: "Você é firme em suas opiniões e gosta de se expressar com clareza.",
             },
             {
-                texto: " Texto/resposta ",
-                afirmacao: " Afirmação ",
+                texto: "  Prefere evitar conflitos ",
+                afirmacao: " Você busca harmonia nos relacionamentos e evita desgastes desnecessários.",
             }
         ]
     },
