@@ -1,3 +1,8 @@
+const caixaPrincipal = Document.querySelector(".caixa-principal");
+const caixaPerguntas = Document.querySelector(".caixa-perguntas");
+const caixaAlternativas = Document.querySelector(".caixa-Alternativas");
+const caixaResultado = Document.querySelector(".caixa-Resultado");
+const textoResultado = Document.querySelector(".texto-resultado");
 
 
 
