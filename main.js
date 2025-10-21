@@ -85,6 +85,11 @@ function mostraPerguntas() {
 }
 
 function mostraAlternativas() {
+if (atual>= perguntas.length){
+    mostraResultado();
+    return;
+}
+
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa.texto;
