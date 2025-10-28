@@ -86,10 +86,10 @@ function mostraPerguntas() {
 }
 
 function mostraAlternativas() {
-if (atual>= perguntas.length){
-    mostraResultado();
-    return;
-}
+    if (atual >= perguntas.length) {
+        mostraResultado();
+        return;
+    }
 
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
@@ -102,14 +102,14 @@ if (atual>= perguntas.length){
 }
 
 
-function respostaSelecionada(opcaoSelecionada){
+function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPerguntas();
 }
-function mostraResultado () {
-    caixaPerguntas.textContent = "Se for possível...";
+function mostraResultado() {
+    caixaPerguntas.textContent = " Se for possível...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
 }
