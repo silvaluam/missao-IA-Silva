@@ -108,7 +108,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = " Se for possível...";
+    caixaPerguntas.textContent = " Para começar ...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
 }
