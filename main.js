@@ -104,11 +104,12 @@ function mostraAlternativas() {
 
 
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacoes + " ";
     atual++;
     mostraPerguntas();
 }
+
 function mostraResultado() {
     caixaPerguntas.textContent = " Se for possível...";
     textoResultado.textContent = historiaFinal;
